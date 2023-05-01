@@ -1,0 +1,31 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(8, 18, 26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+}
+.links a {
+  font-size: 18px;
+  transition-property: all ease-in-out;
+}
+.links a:hover {
+  transform: scale(1.1);
+}
